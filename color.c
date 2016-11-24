@@ -812,7 +812,7 @@ _mutt_parse_color (BUFFER *buf, BUFFER *s, BUFFER *err,
   
   /* dry run? */
   
-  if(dry_run) return 1;
+  if(dry_run) return 0;
 
   
 #ifdef HAVE_COLOR
